@@ -50,7 +50,7 @@ function initGame() {
     const cardBack = document.createElement("div");
     cardBack.classList.add("card-back");
     const backImg = document.createElement("img");
-    backImg.src = "back.jpeg"; // Arkadaki resim
+    backImg.src = "back.jpg"; // Arkadaki resim
     cardBack.appendChild(backImg);
 
     // Ön yüz (resimX.png)
