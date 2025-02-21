@@ -2,21 +2,38 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8" />
-  <title>Quills Card Game</title>
+  <title>Basit Kart Eşleştirme Oyunu</title>
   <!-- Harici CSS dosyası -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <h1>Quills Card Game</h1>
+  <h1>Basit Kart Eşleştirme Oyunu</h1>
 
+  <!-- Oyun alanı -->
   <div class="game-container">
-    <!-- Kartlar JavaScript tarafından eklenecek -->
+    <!-- Kartlar JavaScript ile eklenecek -->
   </div>
 
+  <!-- Skor tablosu -->
   <div class="scoreboard">
-    <p>Eşleşen Çiftler: <span id="score">0</span> / 7</p>
+    <p>Matching Pairs: <span id="score">0</span> / 7</p>
     <button id="restart-btn">Restart</button>
+    <p class="small-note">discord: cryptoayax || x: cryptoayax</p>
+  </div>
+
+  <!-- Oyun bitince açılacak modal -->
+  <div id="winModal" class="modal">
+    <div class="modal-content">
+      <img src="highlight.jpeg" alt="Highlight" id="winImage" />
+      <p class="modal-text">
+        You have successfully completed this game. It is time to implement the Somnia Testnet. <br />
+        For more information: 
+        <a href="https://x.com/Somnia_Network" target="_blank" rel="noopener noreferrer">
+          https://x.com/Somnia_Network
+        </a>
+      </p>
+    </div>
   </div>
 
   <!-- JS dosyası -->
