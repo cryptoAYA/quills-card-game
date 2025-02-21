@@ -108,3 +108,60 @@ h1 {
 #restart-btn:hover {
   opacity: 0.8;
 }
+
+/* Küçük not (discord ve x bilgisi) */
+.small-note {
+  color: #fff;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+/* ---------- Modal (Kazanınca açılacak) ---------- */
+.modal {
+  display: none; /* Başta gizli */
+  position: fixed; 
+  z-index: 999; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; 
+  background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.modal-content {
+  position: relative;
+  margin: 10% auto;
+  background-color: #570332;
+  width: 90%;
+  max-width: 400px;
+  padding: 30px 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(161,5,92,0.5);
+}
+
+/* Modal içindeki resim */
+#winImage {
+  width: 100%;
+  max-width: 300px;
+  border: 2px solid #a1055c;
+  border-radius: 10px;
+}
+
+/* Modal yazı */
+.modal-text {
+  margin-top: 15px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.modal-text a {
+  color: #a1055c;
+  text-decoration: underline;
+}
+
+.modal-text a:hover {
+  opacity: 0.8;
+}
